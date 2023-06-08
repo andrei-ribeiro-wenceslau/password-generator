@@ -16,7 +16,7 @@ N/A
 
 ## Usage
 
-To access the website please click on the following link [Project Website Link](https://andrei-ribeiro-wenceslau.github.io/password-generator/)
+To access the website please click on the following link [Password Generator App](https://andrei-ribeiro-wenceslau.github.io/password-generator/)
 
 ## Credits
 
