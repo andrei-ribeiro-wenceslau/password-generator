@@ -35,7 +35,7 @@ function generatePassword() {
 
   // Create an empty array and final password array
   var selectedCharacterTypes = [];
-  var password = [];
+  var finalPassword = [];
 
   // Concatenate selected character types to selectedCharacterTypes
   if (confirmSpecialCharacters) {
@@ -54,11 +54,11 @@ function generatePassword() {
   // Generate random password characters
   for (let index = 0; index < passwordCharactersLength; index++) {
     var randomIndex = Math.floor(Math.random() * selectedCharacterTypes.length);
-    password.push(selectedCharacterTypes[randomIndex]);
+    finalPassword.push(selectedCharacterTypes[randomIndex]);
   }
 
   // Convert the password array to a string
-  var finalPasswordString = password.join("");
+  var finalPasswordString = finalPassword.join("");
 
   return finalPasswordString;
 }
